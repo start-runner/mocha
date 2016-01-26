@@ -1,6 +1,6 @@
 {
   "name": "start-mocha",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mocha runner for Start",
   "keywords": [ "tasks", "runner", "start", "mocha" ],
   "homepage": "https://github.com/start-runner/mocha",
