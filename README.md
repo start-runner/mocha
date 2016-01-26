@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/start-mocha.svg?style=flat-square)](https://www.npmjs.com/package/start-eslint)
+[![npm](https://img.shields.io/npm/v/start-mocha.svg?style=flat-square)](https://www.npmjs.com/package/start-mocha)
 [![travis](http://img.shields.io/travis/start-runner/mocha.svg?style=flat-square)](https://travis-ci.org/start-runner/mocha)
 [![deps](https://img.shields.io/gemnasium/start-runner/mocha.svg?style=flat-square)](https://gemnasium.com/start-runner/mocha)
 
