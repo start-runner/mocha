@@ -35,5 +35,5 @@ export const test = [
 
 `clean(patterns, options)`
 
-* `patterns` – [minimatch patterns](https://github.com/isaacs/minimatch)
+* `patterns` – [globby patterns](https://github.com/sindresorhus/globby)
 * `options` – [Mocha options](https://github.com/mochajs/mocha/blob/d811eb9614e5b459dabb4f2496e69f961decec90/lib/mocha.js#L59-L70)
