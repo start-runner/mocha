@@ -2,7 +2,7 @@
   "name": "start-mocha",
   "version": "0.1.1",
   "description": "Mocha runner for Start",
-  "keywords": [ "tasks", "runner", "start", "mocha" ],
+  "keywords": [ "start-task", "mocha" ],
   "homepage": "https://github.com/start-runner/mocha",
   "repository": "start-runner/mocha",
   "contributors": [
