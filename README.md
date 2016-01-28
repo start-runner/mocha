@@ -14,13 +14,17 @@ npm i -D start-mocha
 
 ```js
 // tasks/index.js
+import start from 'start';
+import logger from 'start-simple-logger';
 import mocha from 'start-mocha';
 
-export const test = [
-    ...
-    mocha('test/**/*.js'),
-    ...
-];
+export function test() {
+    return start(logger)(
+        ...
+        mocha('test/**/*.js'),
+        ...
+    );
+}
 ```
 
 ```js
