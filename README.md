@@ -12,6 +12,8 @@ npm i -D start-mocha
 
 ## Usage
 
+Task is rely on array of files.
+
 ```js
 // tasks/index.js
 import start from 'start';
@@ -20,7 +22,7 @@ import files from 'start-files';
 import mocha from 'start-mocha';
 
 export function test() {
-    return start(logger)(
+    return start(logger())(
         files('test/**/*.js'),
         mocha()
     );
