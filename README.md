@@ -16,15 +16,25 @@ Task is rely on array of files.
 
 ```js
 // tasks/index.js
-import start from 'start';
+import Start from 'start';
 import logger from 'start-simple-logger';
 import files from 'start-files';
+import watch from 'start-watch';
 import mocha from 'start-mocha';
 
+const start = Start(logger());
+
 export function test() {
-    return start(logger())(
+    return start(
         files('test/**/*.js'),
         mocha()
+    );
+}
+
+export function tdd() {
+    return start(
+        files([ 'lib/**/*.js', 'test/**/*.js']),
+        watch(test)
     );
 }
 ```
@@ -33,7 +43,8 @@ export function test() {
 // package.json
 "scripts": {
   "task": "babel-node node_modules/.bin/start tasks/",
-  "test": "npm run task test"
+  "test": "npm run task test",
+  "tdd": "npm run task tdd"
 }
 ```
 
