@@ -16,8 +16,6 @@ npm i -D start-mocha
 
 ## Usage
 
-Task is rely on array of files.
-
 ```js
 import Start from 'start';
 import reporter from 'start-pretty-reporter';
