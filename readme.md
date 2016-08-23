@@ -5,7 +5,6 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/mocha.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/mocha)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/mocha.svg?style=flat-square)](https://codecov.io/github/start-runner/mocha)
 [![deps](https://img.shields.io/gemnasium/start-runner/mocha.svg?style=flat-square)](https://gemnasium.com/start-runner/mocha)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 [Mocha](https://mochajs.org/) task for [Start](https://github.com/start-runner/start).
 
