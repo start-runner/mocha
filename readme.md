@@ -1,9 +1,9 @@
 # start-mocha
 
 [![npm](https://img.shields.io/npm/v/start-mocha.svg?style=flat-square)](https://www.npmjs.com/package/start-mocha)
-[![linux build](https://img.shields.io/travis/start-runner/mocha.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/mocha)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/mocha.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/mocha)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/mocha.svg?style=flat-square)](https://codecov.io/github/start-runner/mocha)
+[![linux build](https://img.shields.io/travis/start-runner/mocha/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/mocha)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/mocha/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/mocha)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/mocha/master.svg?style=flat-square)](https://codecov.io/github/start-runner/mocha)
 [![deps](https://img.shields.io/gemnasium/start-runner/mocha.svg?style=flat-square)](https://gemnasium.com/start-runner/mocha)
 
 [Mocha](https://mochajs.org/) task for [Start](https://github.com/start-runner/start).
