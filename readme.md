@@ -10,8 +10,10 @@
 
 ## Install
 
-```
-npm i -D start-mocha
+```sh
+npm install --save-dev start-mocha
+# or
+yarn add --dev start-mocha
 ```
 
 ## Usage
@@ -25,19 +27,15 @@ import mocha from 'start-mocha';
 
 const start = Start(reporter());
 
-export function test() {
-    return start(
-        files('test/**/*.js'),
-        mocha()
-    );
-}
+export const test = () => start(
+  files('test/**/*.js'),
+  mocha()
+);
 
-export function tdd() {
-    return start(
-        files([ 'lib/**/*.js', 'test/**/*.js' ]),
-        watch(test)
-    );
-}
+export const tdd = () => start(
+  files([ 'lib/**/*.js', 'test/**/*.js' ]),
+  watch(test)
+);
 ```
 
 This task relies on array of files, see [documentation](https://github.com/start-runner/start#readme) for details.
